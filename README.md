@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# TodoApp_React_NetCoreWebAPI_SQLServer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+**TodoApp_React_NetCoreWebAPI_SQLServer** is a full-stack application developed as part of the video tutorial "Build app using React JS, .NET Core Web API and Microsoft SQL Server" by Art of Engineer. The application demonstrates how to create a simple Todo list app using a React front-end, a .NET Core Web API back-end, and a Microsoft SQL Server database hosted on Microsoft Azure.
 
-## Available Scripts
+This repository should be paired with the backend repository: `TodoApp_React_NetCoreWebAPI_SQLServer_Backend`.
 
-In the project directory, you can run:
+## Technologies Used
+- **React.js**: JavaScript library for building the user interface.
+- **.NET Core Web API**: Framework for building the back-end API.
+- **Microsoft SQL Server**: Database management system used to store Todo items.
+- **Microsoft Azure**: Cloud service used for hosting the SQL Server database.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Start the Back End
+1. **Open Visual Studio** and open the project: `TodoApp_React_NetCoreWebAPI_SQLServer`.
+2. **Add Credentials**: In the `appSettings.json` file, add the credentials for the Azure server and database admin.
+3. **Compile and Run**:
+   - Click the compile button in Visual Studio to start the web application.
+   - In the browser, you should be able to use the Swagger page to test the `GET`, `POST`, and `DELETE` endpoints.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Start the Front End
+1. **Open VS Code**: Open the workspace for the React app.
+2. **Navigate to the Front-End Folder**:
+   - Open an explorer window to the folder where the front-end is located (e.g., `...\TodoApp_React_NetCoreWebAPI_SQLServer\ui\todoapp`).
+   - In the folder, place the mouse cursor in the address bar and type `cmd` to launch a console in that folder.
+3. **Start the React Project**:
+   - Enter the command `npm start` to start the React project.
+   - It should provide a localhost URL for testing, such as `http://localhost:3000`.
 
-### `npm test`
+## Usage
+Once both the front-end and back-end are running, you can interact with the Todo app through the React front-end. You can add, view, delete, and update Todo items, with the data being stored and retrieved from the SQL Server database hosted on Azure.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Additional Information
+- **Video Tutorial**: The project is based on the video tutorial by Art of Engineer, which can be found [here](https://www.youtube.com/watch?v=O5hKoBV3vaU).
+- **Related Repository**: Make sure to check out the backend repository: `TodoApp_React_NetCoreWebAPI_SQLServer_Backend`.
 
-### `npm run build`
+## Contributing
+Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request. You can also open issues to report bugs or suggest new features.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
