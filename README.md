@@ -36,9 +36,6 @@ Once both the front-end and back-end are running, you can interact with the Todo
 - **Video Tutorial**: The project is based on the video tutorial by Art of Engineer, which can be found [here](https://www.youtube.com/watch?v=O5hKoBV3vaU).
 - **Related Repository**: Make sure to check out the backend repository: `TodoApp_React_NetCoreWebAPI_SQLServer_Backend`.
 
-## Contributing
-Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request. You can also open issues to report bugs or suggest new features.
-
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
